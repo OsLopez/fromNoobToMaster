@@ -8,10 +8,6 @@ echo OTRA_CONSTANTE;
 const ANIMALES = array('perro', 'gato', 'pájaro');
 echo ANIMALES[1]; // muestra "gato"
 // Funciona a partir de PHP 7
-define('ANIMALES', array(
-    'perro',
-    'gato',
-    'pájaro'
-));
+//define('ANIMALES', array('perro','gato','pájaro'));
 echo ANIMALES[1]; // muestra "gato"
 ?>
